@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Read real customer reviews and testimonials about DriveElite, or submit your own review. We value your feedback."
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Testimonials & Reviews | DriveElite</title>
+  </head>
+  <body>
+    <!-- HEADER & NAVIGATION -->
+    <nav id="navbar" class="scrolled">
+      <div class="nav__container">
+        <div class="nav__logo">
+          <a href="index.html" class="logo">
+            <i class="ri-roadster-fill"></i>
+            <span>DriveElite</span>
+          </a>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="fleet.html">Fleet</a></li>
+          <li><a href="testimonials.html" class="active">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav__btns">
+          <button class="btn" onclick="window.location.href='register.html'">Register</button>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- INNER PAGE HEADER -->
+    <header class="page-header">
+      <h1>Client Reviews</h1>
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <a href="testimonials.html" class="active">Testimonials</a>
+      </div>
+    </header>
+
+    <!-- REVIEWS AND SUBMISSION SECTION -->
+    <section class="section__container">
+      <div class="testimonial__split">
+        <!-- Testimonials Slideshow Block -->
+        <div>
+          <h2 class="section__header" style="text-align: left; margin-left: 0;">What people say about us?</h2>
+          <p class="section__description" style="text-align: left; margin-left: 0; margin-bottom: 2rem;">
+            Discover why our customers love renting with us! Read reviews to see how we deliver exceptional quality and reliability.
+          </p>
+          
+          <!-- Swiper container -->
+          <div class="swiper" id="testimonials-swiper">
+            <div class="swiper-wrapper" id="reviews-wrapper">
+              <!-- Slide 1 -->
+              <div class="swiper-slide">
+                <div class="client__card">
+                  <div class="client__details">
+                    <img src="assets/client-1.jpg" alt="Sarah Johnson" />
+                    <div>
+                      <h4>Sarah Johnson</h4>
+                      <div class="client__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-line"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    "I had an amazing experience renting a car from this service. The
+                    booking process was quick and easy, and the car was in perfect
+                    condition. Highly recommend!"
+                  </p>
+                </div>
+              </div>
+              
+              <!-- Slide 2 -->
+              <div class="swiper-slide">
+                <div class="client__card">
+                  <div class="client__details">
+                    <img src="assets/client-2.jpg" alt="Michael Adams" />
+                    <div>
+                      <h4>Michael Adams</h4>
+                      <div class="client__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-line"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    "Customer support was excellent! They helped me with all my
+                    questions, and I felt confident about my booking. I will
+                    definitely rent from them again."
+                  </p>
+                </div>
+              </div>
+              
+              <!-- Slide 3 -->
+              <div class="swiper-slide">
+                <div class="client__card">
+                  <div class="client__details">
+                    <img src="assets/client-3.jpg" alt="Emily Martinez" />
+                    <div>
+                      <h4>Emily Martinez</h4>
+                      <div class="client__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-line"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    "Affordable prices and great selection of vehicles! I found
+                    exactly what I needed, and the pick-up and drop-off process was
+                    seamless. Very happy with my rental."
+                  </p>
+                </div>
+              </div>
+              
+              <!-- Slide 4 -->
+              <div class="swiper-slide">
+                <div class="client__card">
+                  <div class="client__details">
+                    <img src="assets/client-4.jpg" alt="Jason Lee" />
+                    <div>
+                      <h4>Jason Lee</h4>
+                      <div class="client__rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-fill"></i></span>
+                        <span><i class="ri-star-line"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    "The flexibility of free cancellations made my trip stress-free.
+                    I ended up changing my plans, and it was no hassle to adjust my
+                    booking. Great service overall!"
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Pagination Bullet Points -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+        <!-- Write a Review Form -->
+        <div class="write-review__card">
+          <h3>Share Your Experience</h3>
+          <form class="review-form" id="review-form">
+            <div class="form-group">
+              <label for="review-name">Your Name</label>
+              <input type="text" id="review-name" placeholder="John Smith" required />
+            </div>
+            
+            <div class="form-group">
+              <label>Select Rating</label>
+              <div class="rating-select" id="star-rating">
+                <i class="ri-star-line" data-value="1"></i>
+                <i class="ri-star-line" data-value="2"></i>
+                <i class="ri-star-line" data-value="3"></i>
+                <i class="ri-star-line" data-value="4"></i>
+                <i class="ri-star-line" data-value="5"></i>
+              </div>
+              <input type="hidden" id="review-rating-value" value="0" required />
+            </div>
+
+            <div class="form-group">
+              <label for="review-avatar">Select Avatar Theme</label>
+              <select id="review-avatar">
+                <option value="male">Male Profile Icon</option>
+                <option value="female">Female Profile Icon</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="review-msg">Review Message</label>
+              <textarea id="review-msg" placeholder="Write details about your rental ride..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn" style="width: 100%;">Post Review</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="index.html" class="logo">
+              <i class="ri-roadster-fill"></i>
+              <span>DriveElite</span>
+            </a>
+          </div>
+          <p>
+            We're here to provide you with the best vehicles and a seamless
+            rental experience. Stay connected for updates, special offers, and
+            more. Drive with confidence!
+          </p>
+          <ul class="footer__socials">
+            <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+            <li><a href="#"><i class="ri-twitter-fill"></i></a></li>
+            <li><a href="#"><i class="ri-linkedin-fill"></i></a></li>
+            <li><a href="#"><i class="ri-instagram-line"></i></a></li>
+            <li><a href="#"><i class="ri-youtube-fill"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Our Services</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="fleet.html">Fleet List</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Vehicle Models</h4>
+          <ul class="footer__links">
+            <li><a href="fleet.html">Toyota Corolla</a></li>
+            <li><a href="fleet.html">Toyota Innova</a></li>
+            <li><a href="fleet.html">Toyota Fortuner</a></li>
+            <li><a href="fleet.html">Tesla Model S</a></li>
+            <li><a href="fleet.html">Mitsubishi Pajero</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="tel:+910987654321">
+                <span><i class="ri-phone-fill"></i></span> +91 0987654321
+              </a>
+            </li>
+            <li>
+              <a href="https://maps.google.com/?q=New+Delhi,+India" target="_blank" rel="noopener">
+                <span><i class="ri-map-pin-fill"></i></span> New Delhi, India
+              </a>
+            </li>
+            <li>
+              <a href="mailto:info@carrental.com">
+                <span><i class="ri-mail-fill"></i></span> info@carrental.com
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2026 DriveElite & Antigravity. All rights reserved.
+      </div>
+    </footer>
+
+    <!-- INTERACTIVE SLIDEOUT BOOKING DRAWER (UNIVERSAL TEMPLATE) -->
+    <div class="booking-drawer__overlay" id="drawer-overlay"></div>
+    <div class="booking-drawer" id="booking-drawer">
+      <div class="booking-drawer__header">
+        <h2>Book Your Ride</h2>
+        <span class="booking-drawer__close" id="drawer-close"><i class="ri-close-line"></i></span>
+      </div>
+      <div class="booking-drawer__content">
+        <div class="booking-summary-card">
+          <img id="drawer-car-img" src="" alt="Selected Car" />
+          <h3 id="drawer-car-name">Car Model Name</h3>
+          <p id="drawer-car-rate" style="color: var(--text-secondary); font-size: 0.9rem;">$100 / Per Day</p>
+        </div>
+        <form class="booking-form" id="drawer-booking-form">
+          <div class="form-group">
+            <label for="booking-name">Full Name</label>
+            <input type="text" id="booking-name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="booking-email">Email Address</label>
+            <input type="email" id="booking-email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="booking-phone">Phone Number</label>
+            <input type="tel" id="booking-phone" placeholder="+91 99999 88888" required />
+          </div>
+          <div class="form-group">
+            <label for="booking-start">Pick-up Date & Time</label>
+            <input type="datetime-local" id="booking-start" required />
+          </div>
+          <div class="form-group">
+            <label for="booking-end">Return Date & Time</label>
+            <input type="datetime-local" id="booking-end" required />
+          </div>
+          
+          <div class="price-calculation">
+            <div class="price-row">
+              <span>Daily Rate</span>
+              <span id="calc-rate">$0.00</span>
+            </div>
+            <div class="price-row">
+              <span>Duration</span>
+              <span id="calc-days">0 Days</span>
+            </div>
+            <div class="price-row total">
+              <span>Total Price</span>
+              <span id="calc-total">$0.00</span>
+            </div>
+          </div>
+          
+          <button type="submit" class="btn" style="width: 100%; margin-top: 1rem;">Confirm Booking</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- FLOATING BACK TO TOP BUTTON -->
+    <div class="back-to-top" id="back-to-top">
+      <i class="ri-arrow-up-line"></i>
+    </div>
+
+    <!-- SCRIPT INCLUSIONS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+      // Load Swiper
+      let swiperInstance;
+      function initSwiper() {
+        if (swiperInstance) swiperInstance.destroy();
+        swiperInstance = new Swiper('#testimonials-swiper', {
+          loop: true,
+          autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          spaceBetween: 20,
+          breakpoints: {
+            320: { slidesPerView: 1 },
+            768: { slidesPerView: 1.5 },
+            1024: { slidesPerView: 2 }
+          }
+        });
+      }
+
+      // Review state loading
+      const reviewsWrapper = document.getElementById('reviews-wrapper');
+
+      function loadCustomReviews() {
+        const stored = localStorage.getItem('customReviews') || '[]';
+        const reviews = JSON.parse(stored);
+        
+        reviews.forEach(rev => {
+          const slide = document.createElement('div');
+          slide.className = 'swiper-slide';
+          
+          let starsHtml = '';
+          for(let i=1; i<=5; i++) {
+            starsHtml += i <= rev.rating ? '<span><i class="ri-star-fill"></i></span>' : '<span><i class="ri-star-line"></i></span>';
+          }
+          
+          slide.innerHTML = `
+            <div class="client__card">
+              <div class="client__details">
+                <img src="${rev.avatar}" alt="${rev.name}" />
+                <div>
+                  <h4>${rev.name}</h4>
+                  <div class="client__rating">${starsHtml}</div>
+                </div>
+              </div>
+              <p>"${rev.message}"</p>
+            </div>
+          `;
+          reviewsWrapper.prepend(slide);
+        });
+      }
+
+      // Load custom reviews and build Swiper
+      loadCustomReviews();
+      initSwiper();
+
+      // Interactive Star Rating selection
+      const stars = document.querySelectorAll('#star-rating i');
+      const ratingValueInput = document.getElementById('review-rating-value');
+      
+      stars.forEach(star => {
+        star.addEventListener('click', () => {
+          const val = parseInt(star.getAttribute('data-value'));
+          ratingValueInput.value = val;
+          
+          stars.forEach(s => {
+            const sVal = parseInt(s.getAttribute('data-value'));
+            if (sVal <= val) {
+              s.className = 'ri-star-fill selected';
+            } else {
+              s.className = 'ri-star-line';
+            }
+          });
+        });
+      });
+
+      // Submit Review Form
+      const reviewForm = document.getElementById('review-form');
+      reviewForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        const name = document.getElementById('review-name').value;
+        const rating = parseInt(ratingValueInput.value);
+        const avatarType = document.getElementById('review-avatar').value;
+        const msg = document.getElementById('review-msg').value;
+        
+        if (rating === 0) {
+          showToast('Select Rating', 'Please pick a star rating between 1 and 5.', 'warning');
+          return;
+        }
+        
+        const avatarUrl = avatarType === 'female' 
+          ? 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80'
+          : 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80';
+          
+        const newReview = { name, rating, avatar: avatarUrl, message: msg };
+        
+        // Save to local storage
+        const stored = JSON.parse(localStorage.getItem('customReviews') || '[]');
+        stored.push(newReview);
+        localStorage.setItem('customReviews', JSON.stringify(stored));
+        
+        // Dynamic DOM append & Swiper refresh
+        const slide = document.createElement('div');
+        slide.className = 'swiper-slide';
+        
+        let starsHtml = '';
+        for(let i=1; i<=5; i++) {
+          starsHtml += i <= rating ? '<span><i class="ri-star-fill"></i></span>' : '<span><i class="ri-star-line"></i></span>';
+        }
+        
+        slide.innerHTML = `
+          <div class="client__card">
+            <div class="client__details">
+              <img src="${avatarUrl}" alt="${name}" />
+              <div>
+                <h4>${name}</h4>
+                <div class="client__rating">${starsHtml}</div>
+              </div>
+            </div>
+            <p>"${msg}"</p>
+          </div>
+        `;
+        
+        reviewsWrapper.prepend(slide);
+        
+        showToast('Review Submitted', 'Thank you! Your feedback is posted and slide-enabled.', 'success');
+        
+        // Reset form & star styles
+        reviewForm.reset();
+        ratingValueInput.value = '0';
+        stars.forEach(s => s.className = 'ri-star-line');
+        
+        // Re-initialize slider
+        initSwiper();
+      });
+    </script>
+  </body>
+</html>
